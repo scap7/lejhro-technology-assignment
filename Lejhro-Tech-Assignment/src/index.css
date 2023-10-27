@@ -24,11 +24,18 @@ li{
   top:0;
   width:100%;
   background-color: aliceblue;
+  display:flex;
+  justify-content: space-around;
+  
   
 }
-.show-sticky svg{
-  background: #000;
+.sticky-icon {
+ justify-content: end;
 }
+svg{
+ font-size: 2rem;
+}
+
 header nav {
   border: 2px solid transparent;
   border-top-left-radius: 2rem;
@@ -49,6 +56,11 @@ header nav  {
 header nav ul {
   display: flex;
   gap:2rem;
+}
+button{
+  border:none;
+  text-decoration: none;
+
 }
 
 a{

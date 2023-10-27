@@ -15,8 +15,8 @@ const StickyNav = ({sidebarHandle}) => {
     <div className={`${showSticky?"show-sticky":"hidden"}`}>
       <div >
         <img src="../public/logo/lejhro_logo_blue.png" alt="lejhro" />
-      </div>
-      <div>
+      </div >
+      <div className='sticky-icon'>
       <button onClick={sidebarHandle}><HiMiniBars3CenterLeft/></button>
       </div>
 
