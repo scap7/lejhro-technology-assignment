@@ -167,6 +167,13 @@ img{
   height:.25rem;
   background-color: #2c7fbf;
 }
+.footer-social svg{
+  border:2px solid transparent;
+  border-radius: 0;
+}
+.footer-container{
+  display:flex;
+}
 @media screen and (max-width:1072px) {
   header ul li{
     display:none;
