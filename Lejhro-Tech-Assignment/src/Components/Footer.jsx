@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
       <div>
         <div className="footer-container">
-          <div>
+          <div className="footer-container-display-flex">
             <h3>Company</h3>
             <a href="">innovations</a>
             <a href="">Business services</a>
@@ -17,11 +17,11 @@ const Footer = () => {
             <a href="">About</a>
             <a href="">Blogs</a>
           </div>
-          <div>
+          <div className="footer-container-display-flex">
             <h3>Programs</h3>
             <a href="">Lejhro Bootcamp</a>
           </div>
-          <div>
+          <div className="footer-container-display-flex">
             <h3>Support</h3>
             <a href="">Contact</a>
             <a href="">Terms of Use</a>
