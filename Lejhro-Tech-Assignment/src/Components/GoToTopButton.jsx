@@ -1,4 +1,5 @@
 import React from "react"
+import {AiOutlineArrowUp} from "react-icons/ai"
 
 
 const GoToTopButton = () => {
@@ -18,7 +19,7 @@ const GoToTopButton = () => {
 
   return (
     <div className="go-to-top">
-      {goToTopButton && <button onClick={goToTop}>go to top</button>}
+      {goToTopButton && <button onClick={goToTop}><AiOutlineArrowUp/></button>}
     </div>
   )
 }
