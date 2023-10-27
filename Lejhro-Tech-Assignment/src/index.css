@@ -19,6 +19,16 @@ li{
   display:block;
   opacity:1;background: white;
 }
+.show-sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+  background-color: aliceblue;
+  
+}
+.show-sticky svg{
+  background: #000;
+}
 header nav {
   border: 2px solid transparent;
   border-top-left-radius: 2rem;

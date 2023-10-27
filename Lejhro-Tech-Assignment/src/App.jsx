@@ -3,6 +3,7 @@ import GoToTopButton from "./Components/GoToTopButton"
 import Footer from "./Components/Footer"
 import BlogContent from "./Components/BlogContent"
 import Navbar from "./Components/Navbar"
+import StickyNav from "./Components/StickyNav"
 import React from "react"
 
 const App=()=>{
@@ -13,7 +14,7 @@ const App=()=>{
   
   return(
     <main>
-       
+       <StickyNav sidebarHandle={sidebarHandle}/>
       <Navbar sidebarHandle={sidebarHandle}/>
       <Sidebar showSidebar={showSidebar} sidebarHandle={sidebarHandle}/>
       <GoToTopButton/>
