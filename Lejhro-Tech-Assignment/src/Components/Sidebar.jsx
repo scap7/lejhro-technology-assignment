@@ -1,13 +1,14 @@
-
+import {FaTwitterSquare,FaFacebookSquare,FaYoutubeSquare} from "react-icons/fa"
+import {BsLinkedin} from "react-icons/bs"
 import {LiaTimesSolid} from "react-icons/lia"
 const Sidebar = ({showSidebar,sidebarHandle}) => {
   return (
-    <div className={`${showSidebar?'show':'hidden'} sidebar`}>
+    <div className={`${showSidebar?'show':'sidebar-hidden'} sidebar`}>
         <div>
             <div>
                 <img src="../public/logo/lejhro_logo_blue.png" alt="lejhro" />
             </div>
-            <button onClick={sidebarHandle}><LiaTimesSolid/></button>
+            <button className="close-icon"onClick={sidebarHandle}><LiaTimesSolid/></button>
         </div>
       <ul>
         <li><a href="">Innovation</a></li>
@@ -18,11 +19,11 @@ const Sidebar = ({showSidebar,sidebarHandle}) => {
         <li><a href="">Contact Us</a></li>
         <li><a href="">Blogs</a></li>
       </ul>
-      <div>
-        <a href="">twitter</a>
-        <a href="">facebook</a>
-        <a href="">LinkedIn</a>
-        <a href="">youtube</a>
+      <div className="sidebar-social">
+        <a href=""><FaTwitterSquare/></a>
+        <a href=""><FaFacebookSquare/></a>
+        <a href=""><BsLinkedin/></a>
+        <a href=""><FaYoutubeSquare/></a>
       </div>
     </div>
   )

@@ -5,9 +5,10 @@ const Navbar = ({ sidebarHandle }) => {
         <header>
             <nav>
                 <div>
-                    <img src="../public/logo/lejhro_logo_blue.png" alt="" />
+                    <img className="nav-img"src="../public/logo/lejhro_logo_blue.png" alt="" />
+                    <h2>Blogs</h2>
+                
                 </div>
-                <h2>Blogs</h2>
                 <ul>
                     <li><a href="">Innovation</a></li>
                     <li><a href="">Bootcamp</a></li>
