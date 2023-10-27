@@ -201,3 +201,13 @@ img{
     display:none;
   }
 }
+@media screen and(max-width:652px )  {
+  
+}
+@media screen and (max-width:400px) {
+  header nav {
+    
+    justify-content: center;
+    gap: 23px;
+  }
+}
