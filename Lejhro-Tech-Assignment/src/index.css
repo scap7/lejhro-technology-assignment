@@ -29,12 +29,21 @@ li{
   
   
 }
-.sticky-icon {
- justify-content: end;
-}
+
 svg{
  font-size: 2rem;
+ border: 2px solid transparent;
+ border-radius: 100%;
+ background: white;
+ box-shadow: 2px 2px 2px grey;
+ 
+
+ 
 }
+.show-sticky svg {
+  background: #000;
+  color:aliceblue;
+ }
 
 header nav {
   border: 2px solid transparent;
@@ -50,18 +59,23 @@ header nav {
 }
 header nav  {
   display:flex;
- ;
+ 
   
 }
 header nav ul {
   display: flex;
   gap:2rem;
 }
+header nav button{
+  background:#d6932c ;
+}
 button{
   border:none;
   text-decoration: none;
 
+
 }
+
 
 a{
   text-decoration: none;
