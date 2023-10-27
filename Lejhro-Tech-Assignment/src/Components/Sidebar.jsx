@@ -1,5 +1,5 @@
 
-
+import {LiaTimesSolid} from "react-icons/lia"
 const Sidebar = ({showSidebar,sidebarHandle}) => {
   return (
     <div className={`${showSidebar?'show':'hidden'} sidebar`}>
@@ -7,7 +7,7 @@ const Sidebar = ({showSidebar,sidebarHandle}) => {
             <div>
                 <img src="../public/logo/lejhro_logo_blue.png" alt="lejhro" />
             </div>
-            <button onClick={sidebarHandle}>close</button>
+            <button onClick={sidebarHandle}><LiaTimesSolid/></button>
         </div>
       <ul>
         <li><a href="">Innovation</a></li>
