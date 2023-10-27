@@ -56,64 +56,8 @@ img{
 
   
 }
-@media only screen and (min-width: 1200px){
-header nav{
-    height: max(40vh,150px)!important;
-    padding: 6.631vh 13.02vw!important;
-}
-}
-@media only screen and (min-width: 992px) and (orientation: landscape){
-header nav{
-    height: 30vh!important;
-    padding: 5.305vh 11.393vw!important;
-}
-header ul {
-  display:none;
-}}
-@media only screen and (min-width: 992px){
-header nav {
-    height: 30vh!important;
-    padding: 5.305vh 11.393vw!important;
-}
-header ul {
-  display:none;
-}
-
-}
-@media only screen and (min-width: 768px) and (orientation: landscape){
-header nav {
-    height: 30vw;
-    padding: 4.641vw 9.765vh!important;
-}
-header ul {
-  display:none;
-}
-}
-@media only screen and (min-width: 768px){
-header nav {
-    height: 30vh;
-    padding: 4.641vh 9.765vw!important;
-}
-header ul {
-  display:none;
-}
-}
-@media only screen and (min-width: 600px) and (orientation: landscape){
-header nav{
-    height: 25vw!important;
-    padding: 3.315vw 6.51vh!important;
-}
-header ul {
-  display:none;
-}
-}
-@media  and (min-width: 600px){
-header nav{
-    height: 30vh!important;
-    padding: 3.978vh 8.138vw!important;
-
-}
-header ul {
-  display:none;
-}
+@media screen and (max-width:1200px) {
+  header ul li{
+    display:none;
+  }
 }
